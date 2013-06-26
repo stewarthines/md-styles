@@ -1,17 +1,17 @@
 @font-face {
-	font-family: 'md-font';
-	src:url('../Content/fonts/md-font.eot');
-	src:url('../Content/fonts/md-font.eot?#iefix') format('embedded-opentype'),
-		url('../Content/fonts/md-font.woff') format('woff'),
-		url('../Content/fonts/md-font.ttf') format('truetype'),
-		url('../Content/fonts/md-font.svg#md-font') format('svg');
+	font-family: 'md-icon-font';
+	src:url('../Content/fonts/md-icon-font.eot');
+	src:url('../Content/fonts/md-icon-font.eot?#iefix') format('embedded-opentype'),
+		url('../Content/fonts/md-icon-font.woff') format('woff'),
+		url('../Content/fonts/md-icon-font.ttf') format('truetype'),
+		url('../Content/fonts/md-icon-font.svg#md-icon-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-	font-family: 'md-font';
+	font-family: 'md-icon-font';
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -27,8 +27,8 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="md-icon-"] {
 */
-.md-icon-calendar, .md-icon-location, .md-icon-sun, .md-icon-book, .md-icon-quill, .md-icon-tag, .md-icon-chrome, .md-icon-bookmark, .md-icon-star, .md-icon-star-2, .md-icon-arrow-left, .md-icon-arrow-right {
-	font-family: 'md-font';
+.md-icon-book, .md-icon-pencil, .md-icon-home, .md-icon-camera, .md-icon-play, .md-icon-arrow-left, .md-icon-arrow-right, .md-icon-bookmark, .md-icon-location, .md-icon-calendar, .md-icon-cog, .md-icon-arrow-left-2, .md-icon-arrow-right-2, .md-icon-sun, .md-icon-plus-alt, .md-icon-minus-alt, .md-icon-arrow-left-alt1, .md-icon-arrow-right-alt1, .md-icon-support, .md-icon-google-drive, .md-icon-google-plus, .md-icon-facebook, .md-icon-twitter, .md-icon-reddit, .md-icon-wordpress, .md-icon-blogger, .md-icon-tumblr, .md-icon-signup, .md-icon-search {
+	font-family: 'md-icon-font';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -37,39 +37,90 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.md-icon-calendar:before {
-	content: "\e02f";
-}
-.md-icon-location:before {
-	content: "\e030";
-}
-.md-icon-sun:before {
-	content: "\e01b";
-}
 .md-icon-book:before {
-	content: "\e000";
-}
-.md-icon-quill:before {
 	content: "\e001";
 }
-.md-icon-tag:before {
+.md-icon-pencil:before {
 	content: "\e002";
 }
-.md-icon-chrome:before {
+.md-icon-home:before {
+	content: "\e000";
+}
+.md-icon-camera:before {
 	content: "\e003";
 }
-.md-icon-bookmark:before {
+.md-icon-play:before {
 	content: "\e004";
 }
-.md-icon-star:before {
+.md-icon-arrow-left:before {
 	content: "\e005";
 }
-.md-icon-star-2:before {
+.md-icon-arrow-right:before {
 	content: "\e006";
 }
-.md-icon-arrow-left:before {
+.md-icon-bookmark:before {
 	content: "\e007";
 }
-.md-icon-arrow-right:before {
+.md-icon-location:before {
 	content: "\e008";
+}
+.md-icon-calendar:before {
+	content: "\e009";
+}
+.md-icon-cog:before {
+	content: "\e00b";
+}
+.md-icon-arrow-left-2:before {
+	content: "\e00a";
+}
+.md-icon-arrow-right-2:before {
+	content: "\e00c";
+}
+.md-icon-sun:before {
+	content: "\e00d";
+}
+.md-icon-plus-alt:before {
+	content: "\e00e";
+}
+.md-icon-minus-alt:before {
+	content: "\e00f";
+}
+.md-icon-arrow-left-alt1:before {
+	content: "\e010";
+}
+.md-icon-arrow-right-alt1:before {
+	content: "\e011";
+}
+.md-icon-support:before {
+	content: "\e012";
+}
+.md-icon-google-drive:before {
+	content: "\e013";
+}
+.md-icon-google-plus:before {
+	content: "\e014";
+}
+.md-icon-facebook:before {
+	content: "\e015";
+}
+.md-icon-twitter:before {
+	content: "\e016";
+}
+.md-icon-reddit:before {
+	content: "\e017";
+}
+.md-icon-wordpress:before {
+	content: "\e018";
+}
+.md-icon-blogger:before {
+	content: "\e01a";
+}
+.md-icon-tumblr:before {
+	content: "\e01b";
+}
+.md-icon-signup:before {
+	content: "\e019";
+}
+.md-icon-search:before {
+	content: "\e01c";
 }

@@ -80,6 +80,9 @@ blockquote {
         font-weight: 400;
     }
 
+    .md-icon {
+        font-weight: normal !important;
+    }
 
 /*==== code & pre =====*/
 
@@ -201,6 +204,75 @@ footer nav ul li + li{
 footer nav ul li:last-child{
     text-align:right;
 }
+
+
+aside[role="navigation"] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background: #242424;
+}
+
+aside[role="navigation"] #coverPhoto {
+    width: 250px;
+    height: 350px;
+    background: url(../Content/coverPhoto.jpg) top left no-repeat;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#coverPhoto img {
+    height: 122px;
+    width: 122px;
+    position: absolute;
+    bottom: -61px;
+    left: 64px;
+    right: 64px;    
+    display: block;
+}
+
+aside[role="navigation"] nav {
+    padding:0 20px;
+}
+
+aside[role="navigation"] nav hr {
+    height: 1px;
+    background: #303030;    
+}
+
+aside[role="navigation"] nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+aside[role="navigation"] nav li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-size: 0.9em;
+}
+
+aside[role="navigation"] footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #303030;
+}
+
+aside[role="navigation"] #menuButton {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 250px;
+    display: block;
+    height: 24px;
+    width: 24px;
+} 
+
 
 footer nav ul li a{
     color:#bbbbbb;
