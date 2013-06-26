@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'md-font';
+	src:url('../Content/fonts/md-font.eot');
+	src:url('../Content/fonts/md-font.eot?#iefix') format('embedded-opentype'),
+		url('../Content/fonts/md-font.woff') format('woff'),
+		url('../Content/fonts/md-font.ttf') format('truetype'),
+		url('../Content/fonts/md-font.svg#md-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'md-font';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="md-icon-"] {
+*/
+.md-icon-calendar, .md-icon-location, .md-icon-sun, .md-icon-book, .md-icon-quill, .md-icon-tag, .md-icon-chrome, .md-icon-bookmark, .md-icon-star, .md-icon-star-2, .md-icon-arrow-left, .md-icon-arrow-right {
+	font-family: 'md-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.md-icon-calendar:before {
+	content: "\e02f";
+}
+.md-icon-location:before {
+	content: "\e030";
+}
+.md-icon-sun:before {
+	content: "\e01b";
+}
+.md-icon-book:before {
+	content: "\e000";
+}
+.md-icon-quill:before {
+	content: "\e001";
+}
+.md-icon-tag:before {
+	content: "\e002";
+}
+.md-icon-chrome:before {
+	content: "\e003";
+}
+.md-icon-bookmark:before {
+	content: "\e004";
+}
+.md-icon-star:before {
+	content: "\e005";
+}
+.md-icon-star-2:before {
+	content: "\e006";
+}
+.md-icon-arrow-left:before {
+	content: "\e007";
+}
+.md-icon-arrow-right:before {
+	content: "\e008";
+}
