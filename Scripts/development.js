@@ -1,7 +1,7 @@
 ﻿$('document').ready(function () {
+
+    //Sidebar Nav Drawer
     var $asideNav = $('aside[role="navigation"]')
-    var $asideNavOpen = $('aside[role="navigation"].aside-open')
-    var $asideNavClosed = $('aside[role="navigation"].aside-closed')
     var $menuButton = $('#menuButton')
 
     //Add closed to make sure it's closed on page load.
@@ -18,4 +18,17 @@
             $asideNav.addClass('aside-closed');
         }
     });
+
+    $('#menuButton').button({
+        icons: {
+            primary: "md-icon-arrow-right-alt1"
+        },
+        text: false
+    });
+    $('#newEntryButton').button({
+        icons: {
+            primary: "md-icon-plus-alt"
+        }
+    });
+    
 });
