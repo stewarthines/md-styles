@@ -210,7 +210,7 @@ aside[role="navigation"] {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: -250px;
     width: 250px;
     background: #242424;
 }
@@ -265,14 +265,24 @@ aside[role="navigation"] footer {
 
 aside[role="navigation"] #menuButton {
     position: absolute;
-    top: 0;
+    top: 50%;
     bottom: 0;
-    left: 250px;
+    left: 260px;
     display: block;
     height: 24px;
     width: 24px;
 } 
 
+
+aside[role="navigation"].aside-closed{
+    left:-260px;
+    transition:left 450ms ease-in-out;
+}
+
+aside[role="navigation"].aside-open{
+    left:0px;
+    transition:left 450ms ease-in-out;
+}
 
 footer nav ul li a{
     color:#bbbbbb;
