@@ -19,7 +19,7 @@
         }
     });
 
-    $('#menuButton').button({
+    $menuButton.button({
         icons: {
             primary: "md-icon-arrow-right-alt1"
         },
@@ -30,5 +30,5 @@
             primary: "md-icon-plus-alt"
         }
     });
-    
+
 });

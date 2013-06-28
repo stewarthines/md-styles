@@ -234,7 +234,7 @@ aside[role="navigation"] #coverPhoto {
 
 aside[role="navigation"] nav {    
     position:relative;
-    padding-right:40px;
+    padding:0px 20px;
 }
 
 aside[role="navigation"] nav hr {
@@ -281,21 +281,21 @@ aside[role="navigation"].aside-closed{
 
 aside[role="navigation"].aside-open{
     left:0px;
-    transition:left 450ms ease-in-out;
+    transition:left 550ms ease-in-out;
 }
 
 aside[role="navigation"].aside-closed img, aside[role="navigation"].aside-closed nav {
     left:-124px;
-    transition:left 1050ms ease-in-out;
+    transition:left 950ms ease-in-out;
 }
 
 aside[role="navigation"].aside-open img {
     left:64px;
-    transition:left 650ms ease-in-out;
+    transition:left 850ms ease-in-out;
 }
 
  aside[role="navigation"].aside-open nav{
-    left:20px;
+    left:0px;
     transition:left 650ms ease-in-out;
  }
 
