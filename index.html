@@ -18,6 +18,25 @@
 </head>
 <body>
 
+    <h2>Participants</h2>
+    Here are the participants:
+    <div data-bind="template: { name: 'person-template', data: buyer }"></div>
+    <div data-bind="template: { name: 'person-template', data: seller }"></div>
+
+    <script type="text/html" id="person-template">
+        <h3 data-bind="text: name"></h3>
+        <p>Credits: <span data-bind="text: credits"></span></p>
+    </script>
+
+    <script type="text/javascript">
+        function MyViewModel() {
+            this.buyer = { name: 'Jim', credits: 2557890 };
+            this.seller = { name: 'Bob', credits: 5800 };
+        }
+        ko.applyBindings(new MyViewModel());
+    </script>
+
+
     <aside role="navigation">
         <button id="menuButton">></button>
         <header>
