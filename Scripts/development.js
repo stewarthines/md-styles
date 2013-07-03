@@ -31,4 +31,18 @@
         }
     });
 
+    var $arrowIcon = $('#menuButton');
+
+    $('#menuButton').click(function () {
+        if ($arrowIcon.hasClass('animate-out')) {
+            $arrowIcon.removeClass('animate-out');
+            $arrowIcon.addClass('animate-in');
+        } else {
+            $arrowIcon.addClass('animate-in');
+            $arrowIcon.addClass('animate-out');
+        }
+    });
+
+
+
 });
